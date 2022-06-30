@@ -1,0 +1,63 @@
+/* First of all fixing image sizing and properties */
+.item  img{
+    width: 200px;
+    height:auto ;
+    border-radius: 10px;
+    color: rgb(64, 64, 64);
+    filter: drop-shadow(4px 4px 5px);
+}
+/* Arranging all six sections in column using flexbox */
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*  Styling Navbar */
+.navbar{
+    display: flex;
+    background-color: #1f2937;
+    /* to seperate the left and right divs */
+    justify-content: space-around;
+    padding: 2px;
+}
+    /* Styling links in navbar */
+    .navbar a{
+    color: white;
+    text-decoration: none;
+    width: auto;
+    height: 32px;
+    }
+    /* Styling left div */
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap:5px;
+    }
+        /* Styling Logo */
+        .left #Github{
+            width: auto;
+            height: 33px;
+        }
+    /* Styling right div */
+    .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    }
+         /* Styling individual logos  */
+        .right #linkedin{
+            width: auto;
+            height: 30px;
+        }
+        .right #instagram{
+            width: auto;
+            height: 30px;
+        }
+        .right #twitter{
+            width: auto;
+            height: 30px;
+        }
