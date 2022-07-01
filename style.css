@@ -47,6 +47,8 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    height: 100px;  /*added height*/
+    width: 140px;   /*added width*/ 
     }
          /* Styling individual logos  */
         .right #linkedin{
