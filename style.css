@@ -108,6 +108,7 @@ body{
     border-radius: 9px;
     padding: 5px 20px;
     font-size: 20px;
+    border: 0px;
 }
 button a{
     color: white;
