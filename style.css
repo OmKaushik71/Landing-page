@@ -77,14 +77,18 @@ body{
     gap: 100px
 }
 .dark-container .image{
-    height: 200px;
-    width: 300px;
+
     background-color: #363e48;
-    filter: drop-shadow(4px 4px 4px black);
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
     display: flex;
     align-items: center;
     justify-content: center;
     color: #adafb4;
+    border-radius: 15px;
+}
+.dark-container .image img{
+   height: 300px;
+   width: auto;
 }
 .dark-container .text{
     max-width: 500px;
