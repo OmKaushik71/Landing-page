@@ -20,7 +20,7 @@ body{
     background-color: #1f2937;
     /* to seperate the left and right divs */
     justify-content: space-around;
-    padding: 2px;
+    padding: 3px;
 }
     /* Styling links in navbar */
     .navbar a{
@@ -56,8 +56,56 @@ body{
         .right #instagram{
             width: auto;
             height: 30px;
+            align-self: flex-end;
         }
         .right #twitter{
             width: auto;
             height: 30px;
         }
+/* Styling first section */
+.dark-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    height: 400px;
+    gap: 100px
+}
+.dark-container .image{
+    height: 200px;
+    width: 300px;
+    background-color: #363e48;
+    filter: drop-shadow(4px 4px 4px black);
+}
+.dark-container .text{
+    max-width: 500px;
+}
+.dark-container .text h1{
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.dark-container .text p{
+    font-family: 'Arima', cursive;
+    font-size: 18px;
+    font-style: italic;
+}
+.dark-container button{
+    background-color: #3882f6;
+    border-radius: 9px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Arima',cursive;
+}
+*{
+    /* border: 1px solid red; */
+}
