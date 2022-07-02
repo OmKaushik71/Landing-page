@@ -177,12 +177,14 @@ button a {
   align-items: center;
   color: #273446;
 }
+
 .q-container {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 557px;
 }
 .quote {
   width: 100%;
