@@ -9,6 +9,10 @@ body {
   color: rgb(64, 64, 64);
   filter: drop-shadow(4px 4px 5px);
 }
+a{
+ text-decoration: none;
+  color: whitesmoke;
+}
 
 /* Arranging all six sections in column using flexbox */
 body {
